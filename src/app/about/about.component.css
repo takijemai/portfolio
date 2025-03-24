@@ -1,0 +1,155 @@
+
+.navbar {
+  padding: 1rem;
+  transition: background 0.3s, color 0.3s;
+  font-family: "Montserrat-Bold" ,sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat" ,sans-serif;
+
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 20px;
+}
+
+
+.about-container {
+  max-width: 900px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.about-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ff9800;
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.about-img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.about-desc {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.skills-section, .education-section, .languages-section, .transport-section {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+.skills-section , .education-section, .languages-section, .transport-section  h3{
+  font-family: "Ubuntu" ,sans-serif;
+}
+.skills-section li, .education-section li, .languages-section li, .transport-section  li{
+  font-family: "Itallic" ,sans-serif;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+.skills-list li i {
+  color: #ff9800;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+  font-family:"Ubuntu";
+  src:url(../../assets/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+  font-family:"Montserrat";
+  src:url(../../assets/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+  font-family:"Montserrat-Black";
+  src:url(../../assets/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+  font-family:"Montserrat-Bold";
+  src:url(../../assets/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+  font-family:"Itallic";
+  src:url(../../assets/newItalic.woff2);
+}

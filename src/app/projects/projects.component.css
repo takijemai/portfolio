@@ -1,0 +1,157 @@
+.navbar {
+  padding: 1rem;
+  transition: background 0.3s, color 0.3s;
+  font-family: "Montserrat-Bold" ,sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat" ,sans-serif;
+
+}
+
+
+.projects-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  /* background: #f9f9f9; */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+
+  margin-bottom: 2rem;
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 350px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Swiper Styles */
+.swiper-container {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-info {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.project-description {
+  font-size: 1rem;
+
+  margin: 0.5rem 0;
+}
+
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.github-link i {
+  font-size: 1.2rem;
+}
+
+.github-link:hover {
+  color: #ff8c00;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff8c00 !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #333 !important;
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+.projects-section > .swiper-button-next,
+.projects-section > .swiper-button-prev {
+  display: none !important;
+}
+
+@font-face{
+  font-family:"Ubuntu";
+  src:url(../../assets/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+  font-family:"Montserrat";
+  src:url(../../assets/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face{
+  font-family:"Montserrat-Black";
+  src:url(../../assets/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+  font-family:"Montserrat-Bold";
+  src:url(../../assets/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face{
+  font-family:"Itallic";
+  src:url(../../assets/newItalic.woff2);
+}
