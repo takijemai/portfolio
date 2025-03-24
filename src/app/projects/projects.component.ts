@@ -17,28 +17,28 @@ projects = [
     title: 'Mobile App for University Room Search',
     description: 'A cross-platform mobile application developed using Ionic and the MEAN Stack to help university students find and post available rooms. The app integrates external APIs such as Idealista for additional listings and Google Maps API from Google Cloud Platform (GCP) for location-based search and navigation.',
     technologies: ['Ionic', 'MEAN Stack', 'Google Maps API', 'Idealista API'],
-    images: ['../../assets/appimg.png', '../../assets/img1.jpg', '../../assets/img2.jpg', '../../assets/img3.jpg'],
+    images: ['./assets/appimg.png', './assets/img1.jpg', './assets/img2.jpg', './assets/img3.jpg'],
     githubLink: 'https://github.com/yourusername/task-manager'
   }
   ,
   {
     title: 'Multilingual Document Translator',
     description: 'A web-based platform that allows users to upload and translate documents into multiple languages using the MEAN stack.',
-    images: ['../../assets/intrad1.png', '../../assets/inTrad2.png', '../../assets/inTrad3.png', '../../assets/inTrad4.png'],
+    images: ['./assets/intrad1.png', './assets/inTrad2.png', './assets/inTrad3.png', './assets/inTrad4.png'],
     githubLink: 'https://github.com/yourusername/portfolio',
     technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'REST API', 'Cloud Storage']
   },
   {
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce website that allows users to search, browse, and purchase products, while an admin panel enables product and order management.',
-    images: ['../../assets/E1.png', '../../assets/E2.png', '../../assets/E3.png'],
+    images: ['./assets/E1.png', './assets/E2.png', './assets/E3.png'],
     githubLink: 'https://github.com/yourusername/ecommerce-platform',
     technologies: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'JWT Authentication', 'Stripe API', 'Admin Dashboard']
   },
   {
     title: 'Football Live Bot',
     description: 'A Telegram bot that provides real-time football match updates, team alerts, and goal notifications.',
-    images: ['../../assets/S1.jpg', '../../assets/S2.jpg', '../../assets/S3.jpg', '../../assets/S4.jpg'],
+    images: ['./assets/S1.jpg', './assets/S2.jpg', './assets/S3.jpg', './assets/S4.jpg'],
     githubLink: 'https://github.com/yourusername/football-bot',
     technologies: ['Python', 'Telegram Bot API', 'Requests', 'RapidAPI - Live Football Data', 'SQLite', 'AsyncIO']
   }
